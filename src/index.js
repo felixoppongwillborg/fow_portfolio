@@ -4,6 +4,7 @@ import './index.css';
 import App from './App';
 import AboutMe from './AboutMe';
 import Projects from './Projects';
+import Resume from './Resume';
 import * as serviceWorker from './serviceWorker';
 
 
@@ -12,6 +13,7 @@ ReactDOM.render(
     <App />
     <AboutMe />
     <Projects />
+    <Resume />
   </React.StrictMode>,
   document.getElementById('app')
 );
