@@ -76,24 +76,27 @@ code {
 }
 #greenArrow {
   display: block;
-  height: 15%;
-  width: 15%;
+  position: absolute;
+  height: 35%;
+  width: 17%;
   margin-left: 47%;
   margin-top: 25%;
   transform: rotate(222deg);
 }
 #blueArrow {
   display: block;
-  height: 11%;
-  width: 11%;
-  margin-left: 14%;
-  margin-top: -30%;
+  position: absolute;
+  height: 25%;
+  width: 13%;
+  margin-left: 13%;
+  margin-top: 10%;
   transform: rotate(59deg);
 }
 #purpleArrow {
   display: block;
-  height: 9%;
-  width: 9%;
+  position: absolute;
+  height: 17%;
+  width: 8%;
   margin-left: 68%;
-  margin-top: -7%;
+  margin-top: 14%;
 }
