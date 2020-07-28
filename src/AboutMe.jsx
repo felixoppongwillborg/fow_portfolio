@@ -12,7 +12,7 @@ class ModalExampleDimmer extends Component {
     const { open, dimmer } = this.state;
 
     return (
-      <div>
+      <div id="aboutMeModal">
         <Button circular icon="expand arrows alternate" size="massive" onClick={this.show("blurring")} />
 
         <Modal dimmer={dimmer} open={open} onClose={this.close}>

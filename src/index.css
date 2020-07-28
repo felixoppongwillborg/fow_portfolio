@@ -1,13 +1,71 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+#green {
+  font-family: KidTYPE;
+  color: #71bc78;
+}
+#orange {
+  font-family: KidTYPE;
+  color: #fd5e53;
+}
+#blue {
+  font-family: KidTYPE;
+  color: #78dbe2;
+}
+#purple {
+  font-family: KidTYPE;
+  color: #7442c8;
+}
+#yellow {
+  font-family: KidTYPE;
+  color: #ffa343;
+}
+#aboutMeModal {
+  display: inline-block;
+  position: fixed;
+   left: 20%;
+   top:45%;
+   
+}
+#resumePage {
+  display: inline-block;
+  position: fixed;
+  left: 45%;
+  top:45%;
+}
+#projectsPage {
+  display: inline-block;
+  position: fixed;
+  left: 70%;
+   top:45%;
+}
+#readAboutFelix {
+  display: inline-block;
+  position: fixed;
+  top: 15%;
+  left: 2%;
+}
+#resume {
+  display: inline-block;
+  position: fixed;
+  top: 75%;
+  left: 43%;
+}
+#projects{
+  display: inline-block;
+  position: fixed;
+  top: 23%;
+  left: 68%;
 }
