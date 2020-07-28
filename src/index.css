@@ -66,6 +66,34 @@ code {
 #projects{
   display: inline-block;
   position: fixed;
-  top: 23%;
+  top: 22%;
   left: 68%;
+}
+#felixProfil {
+  border-radius: 50%;
+  max-width: 250px;
+  max-height: 300px;
+}
+#greenArrow {
+  display: block;
+  height: 15%;
+  width: 15%;
+  margin-left: 47%;
+  margin-top: 25%;
+  transform: rotate(222deg);
+}
+#blueArrow {
+  display: block;
+  height: 11%;
+  width: 11%;
+  margin-left: 14%;
+  margin-top: -30%;
+  transform: rotate(59deg);
+}
+#purpleArrow {
+  display: block;
+  height: 9%;
+  width: 9%;
+  margin-left: 68%;
+  margin-top: -7%;
 }
