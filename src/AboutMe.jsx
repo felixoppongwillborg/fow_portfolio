@@ -14,7 +14,7 @@ class ModalExampleDimmer extends Component {
     return (
       
       <div id="aboutMeModal">
-        <Button circular icon="expand arrows alternate" size="massive" onClick={this.show("blurring")} />
+        <Button circular icon="book" size="massive" onClick={this.show("blurring")} />
 
         <Modal dimmer={dimmer} open={open} onClose={this.close}>
           <Modal.Header>Felix Oppong Willborg</Modal.Header>

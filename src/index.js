@@ -14,9 +14,6 @@ ReactDOM.render(
     <AboutMe />
     <Projects />
     <Resume />
-    <img id="greenArrow" src="/images/pngfuel.com.png" alt=""/>
-    <img id="blueArrow" src="/images/pngblue.com.png" alt=""/>
-    <img id="purpleArrow" src="/images/pngpurple.com.png" alt=""/>
   </React.StrictMode>,
   document.getElementById('app')
 );

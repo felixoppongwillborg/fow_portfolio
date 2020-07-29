@@ -12,7 +12,7 @@ class ModalExampleDimmer extends Component {
 
     return (
       <div id="projectsPage">
-        <Button circular size="massive" icon="expand arrows alternate" onClick={this.show("blurring")}></Button>
+        <Button circular size="massive" icon="code" onClick={this.show("blurring")}></Button>
 
         <Modal dimmer={dimmer} open={open} onClose={this.close}>
           <Modal.Header>Felix Oppong Willborg</Modal.Header>
