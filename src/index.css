@@ -35,21 +35,20 @@ code {
 #aboutMeModal {
   display: inline-block;
   position: fixed;
-   left: 20%;
-   top:45%;
-   
+  left: 20%;
+  top: 45%;
 }
 #resumePage {
   display: inline-block;
   position: fixed;
   left: 45%;
-  top:45%;
+  top: 45%;
 }
 #projectsPage {
   display: inline-block;
   position: fixed;
   left: 70%;
-   top:45%;
+  top: 45%;
 }
 #readAboutFelix {
   display: inline-block;
@@ -63,7 +62,7 @@ code {
   top: 75%;
   left: 43%;
 }
-#projects{
+#projects {
   display: inline-block;
   position: fixed;
   top: 22%;

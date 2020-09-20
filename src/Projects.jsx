@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { Button, Modal } from "semantic-ui-react";
-import projectCard from "./projectCard"
+import projectCard from "./projectCard";
 
 class ModalExampleDimmer extends Component {
   state = { open: false };
@@ -24,7 +24,7 @@ class ModalExampleDimmer extends Component {
           <Modal.Header>Felix Oppong Willborg</Modal.Header>
           <Modal.Content image>
             <Modal.Description>
-             <projectCard />
+              <projectCard />
             </Modal.Description>
           </Modal.Content>
           <Modal.Actions>
